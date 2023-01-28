@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+ .card {
+  margin: 20px 0;
+ }
+
+.border-3 {
+  border-width:3px !important;
+}
+
+.hyperlink {
+  color: white;
+  text-decoration: none;
+}

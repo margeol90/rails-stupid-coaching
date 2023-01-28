@@ -1,0 +1,29 @@
+<div class="container">
+  <div class ="card border-primary border-3">
+    <div class="card-header">
+        <p>
+      <%= @question %>
+      </p>
+    </div>
+    <div class="card-body">
+      <p>
+      - You
+      </p>
+    </div>
+  </div>
+    <div class ="card border-warning border-3">
+      <div class="card-header">
+        <p>
+          <%= @answer %>
+        </p>
+      </div>
+      <div class="card-body">
+        <p>
+        - Coach
+        </p>
+      </div>
+    </div>
+  <button type="button" class="btn btn-success hyperlink">
+    <%= link_to "Ask another question", ask_path, class: "hyperlink" %>
+  </button>
+</div>
